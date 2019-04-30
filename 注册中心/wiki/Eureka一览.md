@@ -29,7 +29,7 @@ Route 53是一个命名服务，Eureka可以为中间层服务器提供相同的
 - 对于我们的memcached缓存服务来识别环中的节点列表。
 - 用于出于各种其他原因携带有关服务的其他特定应用程序元数据。
 
-## 我什么时候应该使用尤里卡？
+## 我什么时候应该使用Eureka？
 
 您通常在AWS云中运行，并且您有许多中间层服务，您不希望向AWS ELB注册或暴露来自外部世界的流量。您要么寻找一个简单的循环负载平衡解决方案，要么愿意根据您的负载平衡需求在Eureka周围编写自己的包装器。您不需要粘性会话并在外部缓存（例如memcached）中加载会话数据。更重要的是，如果您的架构适合基于客户端的负载均衡器的模型，Eureka可以很好地适应这种用途。
 
@@ -39,7 +39,7 @@ Route 53是一个命名服务，Eureka可以为中间层服务器提供相同的
 
 ## 高级架构
 
-![尤里卡高级建筑](https://github.com/Netflix/eureka/raw/master/images/eureka_architecture.png)
+![Eureka高级](https://github.com/Netflix/eureka/raw/master/images/eureka_architecture.png)
 
 上面的架构描述了如何在Netflix上部署Eureka，这就是您通常运行它的方式。有 **一个**每尤里卡集群**区域**哪知道只有在其区域内的情况。每个**区域**至少有**一个** eureka服务器来处理区域故障。
 
@@ -63,7 +63,7 @@ Eureka服务器可以抵御其他同类产品。即使在客户端和服务器�
 
 ## 多个区域
 
-在多个AWS区域部署Eureka是一项相当简单的任务。区域之间的尤里卡群集不会彼此通信。
+在多个AWS区域部署Eureka是一项相当简单的任务。区域之间的Eureka群集不会彼此通信。
 
 ## 监控
 

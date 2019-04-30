@@ -16,13 +16,13 @@
 
 - 现在，通过在您提取源的目录中执行以下命令来构建Eureka Server。
 
-  ```
+  ```sh
   cd eureka
-  ./gradlew清洁构建
+  ./gradlew clean build
   ```
 
 - 您可以找到以下工件
 
-  - Eureka Server WAR档案（./eureka-server/build/libs/eureka-server-XXX.war）
-  - Eureka客户端（./eureka-client/build/libs/eureka-client-XXX.jar）
-  - 依赖关系（./eureka-server/testlibs/）（如果您不想使用maven下载依赖关系，可以使用这些存档）
+  - Eureka Server WAR archive (./eureka-server/build/libs/eureka-server-XXX.war )
+  - Eureka Client (./eureka-client/build/libs/eureka-client-XXX.jar )
+  - Dependencies (./eureka-server/testlibs/) (If you do not want to use maven to download dependencies you can use these archives)

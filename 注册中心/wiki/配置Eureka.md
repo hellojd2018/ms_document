@@ -9,9 +9,9 @@ Eureka有两个组件**--Eureka Client**和**Eureka Server**。使用Eureka的�
 
 设置涉及以下内容
 
-- 尤里卡服务器
-- 应用程序客户端的Eureka客户端
-- Eureka客户端的应用程序服务
+- Eureka Server
+- Eureka Client for the application client
+- Eureka Client for the application service
 
 Eureka可以在AWS和非AWS环境中运行。
 
@@ -28,12 +28,12 @@ Eureka可以在AWS和非AWS环境中运行。
 - 您可以使用此URL“ [http://search.maven.org/#search%7Cga%7C1%7Ceureka-client](http://search.maven.org/#search|ga|1|eureka-client) ” 下载Eureka Client二进制文件
 - 您可以将eureka客户端添加为maven依赖项
 
-```
-< 依赖 >
-  < groupId > com.netflix.eureka </ groupId >
-  < artifactId > eureka-client </ artifactId >
-  < version > 1.1.16 </ version >
- </ dependency >
+```xml
+<dependency>
+  <groupId>com.netflix.eureka</groupId>
+  <artifactId>eureka-client</artifactId>
+  <version>1.1.16</version>
+ </dependency>
 ```
 
 - 您可以按[此处](https://github.com/Netflix/eureka/wiki/Building-Eureka-Client-and-Server)指定构建客户端。
