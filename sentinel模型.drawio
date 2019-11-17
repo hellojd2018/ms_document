@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T04:25:27.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="UUAlyiYh8_PQ4rXkXzEa" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T04:26:04.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="Ic7kEsHgvaw3DZR6bdxv" version="12.2.6" type="github" pages="1">
   <diagram id="y_QmiB6c8rPCZiAQrKqH" name="第 1 页">
     <mxGraphModel dx="928" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
@@ -42,8 +42,8 @@
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-33" value="«interface»&lt;br&gt;&lt;b&gt;PropertyListener&lt;/b&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="490" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="b91iQ3AMOOA-9lCNl5o0-34" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;DegradeRuleManager&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;" parent="1" vertex="1">
-          <mxGeometry x="765" y="1239" width="180" height="90" as="geometry"/>
+        <mxCell id="b91iQ3AMOOA-9lCNl5o0-34" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;DegradeRuleManager&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="1244" width="180" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-35" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="b91iQ3AMOOA-9lCNl5o0-34" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -51,7 +51,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-36" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;DegradeRule&lt;/span&gt;&lt;/pre&gt;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="855" y="1397" width="110" height="50" as="geometry"/>
+          <mxGeometry x="790" y="1389" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-37" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.556;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="b91iQ3AMOOA-9lCNl5o0-36" target="b91iQ3AMOOA-9lCNl5o0-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -60,7 +60,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-38" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;RulePropertyListener&lt;/span&gt;&lt;/pre&gt;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1389" width="110" height="50" as="geometry"/>
+          <mxGeometry x="655" y="1389" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-39" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;" parent="1" source="b91iQ3AMOOA-9lCNl5o0-34" target="b91iQ3AMOOA-9lCNl5o0-38" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -211,7 +211,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9AZi69wFibRh-v-oisWP-25" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;PropertyListener&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="563.5" y="1270" width="148" height="50" as="geometry"/>
+          <mxGeometry x="557" y="1270" width="148" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="9AZi69wFibRh-v-oisWP-26" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="b91iQ3AMOOA-9lCNl5o0-38" target="9AZi69wFibRh-v-oisWP-25">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -240,8 +240,8 @@
         <mxCell id="9AZi69wFibRh-v-oisWP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9AZi69wFibRh-v-oisWP-38" target="b91iQ3AMOOA-9lCNl5o0-50">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="9AZi69wFibRh-v-oisWP-38" value="Entry" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1379" width="295" height="120" as="geometry"/>
+        <mxCell id="9AZi69wFibRh-v-oisWP-38" value="Entry" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1380" width="295" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="9AZi69wFibRh-v-oisWP-39" value="+ curNode: Node" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9AZi69wFibRh-v-oisWP-38">
           <mxGeometry y="26" width="295" height="26" as="geometry"/>
