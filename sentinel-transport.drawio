@@ -1,13 +1,13 @@
-<mxfile host="www.draw.io" modified="2019-11-17T05:34:08.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="ysTRO1Arerh4QBJHOAVZ" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T05:35:11.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="4zKk8T6fwCQwAq-AIXND" version="12.2.6" type="github" pages="1">
   <diagram id="KqSSShnu_zqnlX3PPxr-" name="第 1 页">
-    <mxGraphModel dx="1168" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="928" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandRequest&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="243.5" y="200" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="y3yJiwpzIf4GWc2rWJCF-2" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandHandler&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-2" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandHandler&lt;/span&gt;&lt;/pre&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="360" y="355" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandResponse&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
@@ -22,7 +22,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y3yJiwpzIf4GWc2rWJCF-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandHandlerProvider&lt;/span&gt;&lt;/pre&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;" vertex="1" parent="1">
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandHandlerProvider&lt;/span&gt;&lt;/pre&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="95" y="480" width="180" height="95" as="geometry"/>
         </mxCell>
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-5" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="y3yJiwpzIf4GWc2rWJCF-4">
@@ -30,8 +30,8 @@
             <mxPoint x="-24" y="4" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y3yJiwpzIf4GWc2rWJCF-6" value="«Annotation»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandMapping&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="190" width="180" height="90" as="geometry"/>
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-6" value="«Annotation»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandMapping&lt;/span&gt;&lt;/pre&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="235" width="180" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-7" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="y3yJiwpzIf4GWc2rWJCF-6">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -41,16 +41,16 @@
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-9" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;HeartbeatSender&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="497" y="900" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="y3yJiwpzIf4GWc2rWJCF-10" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandCenter&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-10" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;CommandCenter&lt;/span&gt;&lt;/pre&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="450" y="677.5" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="y3yJiwpzIf4GWc2rWJCF-11" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;Converter&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-11" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;Converter&lt;/span&gt;&lt;/pre&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="930" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3yJiwpzIf4GWc2rWJCF-12" target="y3yJiwpzIf4GWc2rWJCF-11">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="y3yJiwpzIf4GWc2rWJCF-12" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;WritableDataSource&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-12" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;WritableDataSource&lt;/span&gt;&lt;/pre&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="1020" width="110" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-13" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;WritableDataSourceRegistry&lt;/span&gt;&lt;/pre&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 228 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;flowDataSource&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(228 , 228 , 255) ; font-family: &amp;#34;consolas&amp;#34;&quot;&gt;WritableDataSource&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 228 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;degradeDataSource&lt;/span&gt;&lt;span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(228 , 228 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;WritableDataSource&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;" vertex="1" parent="1">
@@ -112,7 +112,7 @@
             <mxPoint x="360" y="480" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y3yJiwpzIf4GWc2rWJCF-28" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;InitFunc&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-28" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;InitFunc&lt;/span&gt;&lt;/pre&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="307" y="860" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="y3yJiwpzIf4GWc2rWJCF-29" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;HeartbeatSenderInitFunc&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
