@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T05:35:11.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="4zKk8T6fwCQwAq-AIXND" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T05:37:18.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="01iWPGvmxUOI2EqiTKRy" version="12.2.6" type="github" pages="1">
   <diagram id="KqSSShnu_zqnlX3PPxr-" name="第 1 页">
     <mxGraphModel dx="928" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,6 +191,18 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="70" y="670" as="sourcePoint"/>
             <mxPoint x="230" y="670" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-54" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;ReadableDataSource&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="1100" width="163" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-55" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;NacosDataSource&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="633.5" y="1230" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="y3yJiwpzIf4GWc2rWJCF-56" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3yJiwpzIf4GWc2rWJCF-55" target="y3yJiwpzIf4GWc2rWJCF-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="1250" as="sourcePoint"/>
+            <mxPoint x="570" y="1250" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
