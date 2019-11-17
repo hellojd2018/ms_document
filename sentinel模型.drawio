@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T03:58:25.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="s58VaXLG4-mXUvo4vkEP" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T04:03:20.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="ofHI-gCtdgC9f5HeM654" version="12.2.6" type="github" pages="1">
   <diagram id="y_QmiB6c8rPCZiAQrKqH" name="第 1 页">
     <mxGraphModel dx="928" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
@@ -95,12 +95,12 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-50" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;ResourceWrapper&lt;/span&gt;&lt;/pre&gt;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="890" width="110" height="50" as="geometry"/>
+          <mxGeometry x="812.5" y="900" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-51" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;EntryType&lt;/span&gt;&lt;/pre&gt;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="718.5" y="980" width="110" height="50" as="geometry"/>
+          <mxGeometry x="812.5" y="980" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="b91iQ3AMOOA-9lCNl5o0-52" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;ProcessorSlot&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="b91iQ3AMOOA-9lCNl5o0-52" value="«interface»&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;ProcessorSlot&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="687.5" y="676" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="b91iQ3AMOOA-9lCNl5o0-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="b91iQ3AMOOA-9lCNl5o0-54" target="b91iQ3AMOOA-9lCNl5o0-52" edge="1">
@@ -164,7 +164,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9AZi69wFibRh-v-oisWP-14" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 8.3pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;DegradeSlot&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="547.5" y="880" width="110" height="50" as="geometry"/>
+          <mxGeometry x="559" y="872" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="9AZi69wFibRh-v-oisWP-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9AZi69wFibRh-v-oisWP-14" target="b91iQ3AMOOA-9lCNl5o0-52">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -176,6 +176,33 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="300" y="1150" as="sourcePoint"/>
             <mxPoint x="410" y="900" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9AZi69wFibRh-v-oisWP-19" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;ProcessorSlotEntryCallback&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="1140" width="170" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9AZi69wFibRh-v-oisWP-20" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;StatisticSlot&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="970" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9AZi69wFibRh-v-oisWP-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9AZi69wFibRh-v-oisWP-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="1250" as="sourcePoint"/>
+            <mxPoint x="730" y="720" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9AZi69wFibRh-v-oisWP-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="9AZi69wFibRh-v-oisWP-20" target="9AZi69wFibRh-v-oisWP-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="1250" as="sourcePoint"/>
+            <mxPoint x="460" y="1250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9AZi69wFibRh-v-oisWP-23" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: #e4e4ff&quot;&gt;ProcessorSlotExitCallback&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1150" width="190" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9AZi69wFibRh-v-oisWP-24" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="9AZi69wFibRh-v-oisWP-20" target="9AZi69wFibRh-v-oisWP-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="797.5" y="1204" as="sourcePoint"/>
+            <mxPoint x="840" y="1100" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
