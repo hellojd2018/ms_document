@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T04:26:04.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="Ic7kEsHgvaw3DZR6bdxv" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T04:26:24.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="J-_vSCEOihrsjXyjwhW8" version="12.2.6" type="github" pages="1">
   <diagram id="y_QmiB6c8rPCZiAQrKqH" name="第 1 页">
     <mxGraphModel dx="928" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
@@ -13,11 +13,11 @@
         <mxCell id="9AZi69wFibRh-v-oisWP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b91iQ3AMOOA-9lCNl5o0-4" target="9AZi69wFibRh-v-oisWP-27">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="b91iQ3AMOOA-9lCNl5o0-4" value="StatisticNode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="870" width="140" height="52" as="geometry"/>
+        <mxCell id="b91iQ3AMOOA-9lCNl5o0-4" value="StatisticNode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="325" y="872" width="140" height="52" as="geometry"/>
         </mxCell>
-        <mxCell id="b91iQ3AMOOA-9lCNl5o0-15" value="DefaultNode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="455" y="1028" width="140" height="52" as="geometry">
+        <mxCell id="b91iQ3AMOOA-9lCNl5o0-15" value="DefaultNode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1010" width="140" height="52" as="geometry">
             <mxRectangle x="360" y="380" width="100" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
