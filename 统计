@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-26T10:30:16.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="KkXbSOA56BmfVF164At2" version="12.3.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-26T10:32:43.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="OTGz3ucZ43g5vVX5C-eS" version="12.3.1" type="github" pages="1">
   <diagram id="bQ4GNvpSXRmeA2BAzfEY" name="Page-1">
     <mxGraphModel dx="1703" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,13 +68,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-36" value="DefaultNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="364" width="350" height="304" as="geometry"/>
+          <mxGeometry x="160" y="364" width="350" height="318" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-37" value="/**&#xa; * The resource associated with the node.&#xa; */&#xa;private ResourceWrapper id;&#xa;&#xa;/**&#xa; * The list of all child nodes.&#xa; */&#xa;private volatile Set&lt;Node&gt; childList = new HashSet&lt;&gt;();&#xa;&#xa;/**&#xa; * Associated cluster node.&#xa; */&#xa;private ClusterNode clusterNode;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uKaW__aBzi2UBFCZrdrH-36">
-          <mxGeometry y="26" width="350" height="270" as="geometry"/>
+          <mxGeometry y="26" width="350" height="284" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="uKaW__aBzi2UBFCZrdrH-36">
-          <mxGeometry y="296" width="350" height="8" as="geometry"/>
+          <mxGeometry y="310" width="350" height="8" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-40" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uKaW__aBzi2UBFCZrdrH-36" target="uKaW__aBzi2UBFCZrdrH-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-41" value="ClusterNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="449.5" width="280" height="134" as="geometry"/>
+          <mxGeometry x="700" y="456" width="280" height="134" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-45" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="uKaW__aBzi2UBFCZrdrH-41" target="uKaW__aBzi2UBFCZrdrH-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -101,15 +101,27 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-46" value="&lt;span style=&quot;color: rgb(64 , 72 , 91) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ClusterNode：保存着某个resource在所有的context中实时指标的总和，同样的resource会共享同一个ClusterNode，不管他在哪个context中&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="710" y="710" width="560" height="40" as="geometry"/>
+          <mxGeometry x="730" y="710" width="560" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=208;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uKaW__aBzi2UBFCZrdrH-48" target="uKaW__aBzi2UBFCZrdrH-36">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-48" value="&lt;span style=&quot;color: rgb(64 , 72 , 91) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;保存着某个resource在某个context中的实时指标，每个DefaultNode都指向一个ClusterNode&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="128" y="710" width="430" height="70" as="geometry"/>
+          <mxGeometry x="70" y="730" width="430" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="uKaW__aBzi2UBFCZrdrH-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uKaW__aBzi2UBFCZrdrH-37" target="uKaW__aBzi2UBFCZrdrH-42">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uKaW__aBzi2UBFCZrdrH-52" value="ResourceWrapper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="850" width="250" height="228" as="geometry"/>
+        </mxCell>
+        <mxCell id="uKaW__aBzi2UBFCZrdrH-53" value="protected final String name;&#xa;&#xa;protected final EntryType entryType;&#xa;protected final int resourceType;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uKaW__aBzi2UBFCZrdrH-52">
+          <mxGeometry y="26" width="250" height="104" as="geometry"/>
+        </mxCell>
+        <mxCell id="uKaW__aBzi2UBFCZrdrH-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="uKaW__aBzi2UBFCZrdrH-52">
+          <mxGeometry y="130" width="250" height="98" as="geometry"/>
+        </mxCell>
+        <mxCell id="uKaW__aBzi2UBFCZrdrH-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uKaW__aBzi2UBFCZrdrH-37" target="uKaW__aBzi2UBFCZrdrH-52">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
