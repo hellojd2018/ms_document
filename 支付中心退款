@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T10:40:01.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="QDt0SoCUO8J9uZas0c_r" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T10:46:33.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="aReNW0oDQy_lEmbtZIU9" version="12.3.3" type="github" pages="1">
   <diagram id="hQa-4ZSQarzN8dFDgq09" name="Page-1">
     <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
           <mxGeometry x="150" y="790" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-26" value="渠道退款接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="790" width="120" height="60" as="geometry"/>
+          <mxGeometry x="305" y="790" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-27" value="微信退款成功回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="790" width="120" height="60" as="geometry"/>
@@ -78,7 +78,7 @@
         <mxCell id="uNy-Arznf8djMvlrspUZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-32" target="uNy-Arznf8djMvlrspUZ-35">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="uNy-Arznf8djMvlrspUZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;strokeColor=#FF9933;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-32" target="uNy-Arznf8djMvlrspUZ-27">
+        <mxCell id="uNy-Arznf8djMvlrspUZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;strokeColor=#FF9933;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-40" target="uNy-Arznf8djMvlrspUZ-27">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-32" value="支付宝退款？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -89,6 +89,58 @@
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-35" value="订单查询任务" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="180" y="480" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-40" value="微信" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="574" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;strokeColor=#FF9933;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-32" target="uNy-Arznf8djMvlrspUZ-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="560" as="sourcePoint"/>
+            <mxPoint x="520" y="790" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-44" value="支付宝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="490" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-46" value="" style="endArrow=classic;html=1;strokeColor=#FF9933;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-35" target="uNy-Arznf8djMvlrspUZ-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="980" as="sourcePoint"/>
+            <mxPoint x="100" y="930" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-47" value="查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="uNy-Arznf8djMvlrspUZ-46">
+          <mxGeometry x="0.0754" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-48" value="" style="endArrow=classic;html=1;strokeColor=#FF9933;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-23" target="uNy-Arznf8djMvlrspUZ-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="540" as="sourcePoint"/>
+            <mxPoint x="770" y="490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="670" y="415"/>
+              <mxPoint x="670" y="880"/>
+              <mxPoint x="365" y="880"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="退款回调APP接口" id="uNy-Arznf8djMvlrspUZ-49">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66FF66;" vertex="1" parent="1">
+            <mxGeometry x="180" y="594" width="260" height="56" as="geometry"/>
+          </mxCell>
+        </object>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-50" value="退款回调接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-52" value="" style="endArrow=classic;html=1;strokeColor=#FF9933;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-49" target="uNy-Arznf8djMvlrspUZ-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="980" as="sourcePoint"/>
+            <mxPoint x="220" y="950" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="40" y="622"/>
+              <mxPoint x="40" y="270"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
