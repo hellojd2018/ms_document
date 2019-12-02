@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-02T10:46:33.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="aReNW0oDQy_lEmbtZIU9" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T10:51:25.046Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Rf2uIPTF9MbKWTLHMEkH" version="12.3.3" type="github" pages="1">
   <diagram id="hQa-4ZSQarzN8dFDgq09" name="Page-1">
-    <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -141,6 +141,18 @@
               <mxPoint x="40" y="270"/>
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-54" value="同步返回结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="590" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-56" value="" style="endArrow=classic;html=1;strokeColor=#FF9933;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-29" target="uNy-Arznf8djMvlrspUZ-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="580" as="sourcePoint"/>
+            <mxPoint x="550" y="530" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-57" value="成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
