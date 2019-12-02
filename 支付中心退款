@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-02T10:30:55.454Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="guPO-IHdN8EslfnVh8Lu" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T10:40:01.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="QDt0SoCUO8J9uZas0c_r" version="12.3.3" type="github" pages="1">
   <diagram id="hQa-4ZSQarzN8dFDgq09" name="Page-1">
     <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-1" value="申请退款" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="90" width="120" height="60" as="geometry"/>
+          <mxGeometry x="310" y="110" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-4" target="uNy-Arznf8djMvlrspUZ-1">
           <mxGeometry relative="1" as="geometry">
@@ -16,28 +16,79 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-4" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="90" width="30" height="60" as="geometry"/>
+          <mxGeometry x="105" y="110" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-7" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="220" width="570" height="170" as="geometry"/>
+          <mxGeometry x="60" y="220" width="620" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-9" target="uNy-Arznf8djMvlrspUZ-18">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-9" value="组装退款请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="270" width="120" height="60" as="geometry"/>
+          <mxGeometry x="140" y="240" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-10" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="460" width="580" height="170" as="geometry"/>
+          <mxGeometry x="70" y="350" width="630" height="320" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-11" value="支付&lt;br&gt;中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="500" width="40" height="20" as="geometry"/>
+          <mxGeometry x="80" y="390" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-12" value="业务端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="260" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-13" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="700" width="580" height="170" as="geometry"/>
+          <mxGeometry x="50" y="740" width="660" height="170" as="geometry"/>
         </mxCell>
         <mxCell id="uNy-Arznf8djMvlrspUZ-14" value="渠道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="740" width="40" height="20" as="geometry"/>
+          <mxGeometry x="60" y="780" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-18" target="uNy-Arznf8djMvlrspUZ-20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-18" value="按请求批次判断是否退款成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="375" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-20" target="uNy-Arznf8djMvlrspUZ-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-20" value="验证退款金额合法性？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="375" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-23" target="uNy-Arznf8djMvlrspUZ-29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-23" value="向渠道发起退款" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="385" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-25" value="支付宝退款查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="790" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-26" value="渠道退款接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="790" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-27" value="微信退款成功回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="790" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-29" target="uNy-Arznf8djMvlrspUZ-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-29" value="退款是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="480" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-32" target="uNy-Arznf8djMvlrspUZ-35">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;strokeColor=#FF9933;" edge="1" parent="1" source="uNy-Arznf8djMvlrspUZ-32" target="uNy-Arznf8djMvlrspUZ-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-32" value="支付宝退款？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-34" value="异常" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="490" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uNy-Arznf8djMvlrspUZ-35" value="订单查询任务" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="80" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
