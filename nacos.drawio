@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-07T12:28:23.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="NRZhgac-GIZ5yiwMcYP0" version="12.3.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-07T12:30:10.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="aDD4OZc6gIPl2tHDv5Bm" version="12.3.8" type="github" pages="1">
   <diagram id="kBemaTtvyLqc7f_1Prgw" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,14 +7,14 @@
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;ServiceInfo&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="110" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;Instance&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="220" width="110" height="50" as="geometry"/>
+        <mxCell id="SP2vWgGdZDLDJQDs3RRh-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;&lt;span style=&quot;font-size: 7.2pt ; white-space: nowrap&quot;&gt;com.alibaba.nacos.api.naming.pojo.Instance&lt;/span&gt;&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="580" width="260" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;&lt;span style=&quot;font-size: 7.2pt ; white-space: nowrap&quot;&gt;com.alibaba.nacos.api.naming.pojo.&lt;/span&gt;Service&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="290" width="250" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-5" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;Cluster&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="358" y="220" width="110" height="50" as="geometry"/>
+          <mxGeometry x="550" y="220" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SP2vWgGdZDLDJQDs3RRh-6" target="SP2vWgGdZDLDJQDs3RRh-8">
           <mxGeometry relative="1" as="geometry"/>
@@ -30,6 +30,12 @@
         </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-8" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;Cluster&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="425" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="SP2vWgGdZDLDJQDs3RRh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SP2vWgGdZDLDJQDs3RRh-10" target="SP2vWgGdZDLDJQDs3RRh-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SP2vWgGdZDLDJQDs3RRh-10" value="com.alibaba.nacos.api.naming.pojo.ServiceInfo" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="300" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
