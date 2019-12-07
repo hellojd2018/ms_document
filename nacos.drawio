@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-07T13:10:37.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="YMy_i-V8tEDKqy91WG_3" version="12.3.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-07T13:10:49.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="X59wGoK3MeFrZJYd6TpB" version="12.3.8" type="github" pages="1">
   <diagram id="kBemaTtvyLqc7f_1Prgw" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           <mxGeometry x="690" y="1575" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-47" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;AbstractEventListener&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="1305" width="110" height="50" as="geometry"/>
+          <mxGeometry x="330" y="1305" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-48" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;AsyncNotifyService&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="1415" width="110" height="50" as="geometry"/>
@@ -118,8 +118,11 @@
             <mxPoint x="630" y="1590" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="SP2vWgGdZDLDJQDs3RRh-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SP2vWgGdZDLDJQDs3RRh-54" target="SP2vWgGdZDLDJQDs3RRh-47">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-54" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;EventDispatcher&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="1310" width="110" height="50" as="geometry"/>
+          <mxGeometry x="115" y="1305" width="110" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
