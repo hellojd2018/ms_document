@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-07T14:10:13.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="N-A-NFP_PCrxg1mK1EMt" version="12.3.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-07T14:12:38.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="DR6VMbdJJBDR3YCl_5Uk" version="12.3.8" type="github" pages="1">
   <diagram id="kBemaTtvyLqc7f_1Prgw" name="Page-1">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -97,30 +97,6 @@
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-45" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;NotifyService&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="1703" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-47" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;AbstractEventListener&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1280" width="110" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-48" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;AsyncNotifyService&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1400" width="110" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SP2vWgGdZDLDJQDs3RRh-48" target="SP2vWgGdZDLDJQDs3RRh-47">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="460" y="1470" as="sourcePoint"/>
-            <mxPoint x="620" y="1470" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-52" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;com.alibaba.nacos.config.server.service.LongPollingService&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="455" y="1400" width="345" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SP2vWgGdZDLDJQDs3RRh-52" target="SP2vWgGdZDLDJQDs3RRh-47">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="470" y="1590" as="sourcePoint"/>
-            <mxPoint x="630" y="1590" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SP2vWgGdZDLDJQDs3RRh-54" target="SP2vWgGdZDLDJQDs3RRh-47">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-54" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;com.alibaba.nacos.config.server.utils.event.EventDispatcher&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="1490" width="365" height="45" as="geometry"/>
         </mxCell>
@@ -196,12 +172,6 @@
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-71" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;ConfigService&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="1593" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SP2vWgGdZDLDJQDs3RRh-73" target="SP2vWgGdZDLDJQDs3RRh-54">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="SP2vWgGdZDLDJQDs3RRh-73" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;ServerListService&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="5" y="1375" width="110" height="50" as="geometry"/>
-        </mxCell>
         <mxCell id="SP2vWgGdZDLDJQDs3RRh-75" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;ServerListService&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="1805" width="110" height="50" as="geometry"/>
         </mxCell>
@@ -213,6 +183,9 @@
             <mxPoint x="290" y="1810" as="sourcePoint"/>
             <mxPoint x="450" y="1810" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SP2vWgGdZDLDJQDs3RRh-79" value="setNotifyConnectTimeout(Integer.parseInt(env.getProperty(&quot;notifyConnectTimeout&quot;, &quot;100&quot;)));&#xa;logger.info(&quot;notifyConnectTimeout:{}&quot;, notifyConnectTimeout);&#xa;setNotifySocketTimeout(Integer.parseInt(env.getProperty(&quot;notifySocketTimeout&quot;, &quot;200&quot;)));" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="1890" width="580" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
