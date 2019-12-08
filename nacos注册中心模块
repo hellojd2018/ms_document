@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-08T02:04:14.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="l6MLtTIZ1ySEdEJKHexz" version="12.3.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-08T02:06:45.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="FHz7j6k-F4_xWYCCn3Ko" version="12.3.8" type="github" pages="1">
   <diagram id="uvfPOBTlKuT0yx0i2q9q" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,9 @@
         <mxCell id="jgO1rRKCjo9tTGb5ZzEV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jgO1rRKCjo9tTGb5ZzEV-14" target="jgO1rRKCjo9tTGb5ZzEV-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
+        <mxCell id="jgO1rRKCjo9tTGb5ZzEV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jgO1rRKCjo9tTGb5ZzEV-14" target="jgO1rRKCjo9tTGb5ZzEV-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="jgO1rRKCjo9tTGb5ZzEV-14" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;NacosServiceRegistry&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="460" width="120" height="50" as="geometry"/>
         </mxCell>
@@ -84,6 +87,12 @@
             <mxPoint x="120" y="640" as="sourcePoint"/>
             <mxPoint x="280" y="640" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jgO1rRKCjo9tTGb5ZzEV-27" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 7.2pt&quot;&gt;NacosDiscoveryProperties&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="584" width="145" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="jgO1rRKCjo9tTGb5ZzEV-29" value="注册：http://127.0.0.1:8848/nacos/v1/ns/instance" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="700" width="350" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
