@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-04T13:57:01.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="o4eIZuCNrca8gAQUCO62" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-04T14:03:20.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="PmvGj6PJwW9R8Pf7f9ao" version="12.4.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2591" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -109,9 +109,6 @@
         <mxCell id="NDDrR8Ec5uSqQgOio9mj-74" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 9pt&quot;&gt;HttpRouteDirector&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="50" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="NDDrR8Ec5uSqQgOio9mj-75" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 9pt&quot;&gt;HttpAuthenticator&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="915" y="760" width="110" height="50" as="geometry"/>
-        </mxCell>
         <mxCell id="NDDrR8Ec5uSqQgOio9mj-76" value="AuthenticationStrategy" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="40" width="150" height="50" as="geometry"/>
         </mxCell>
@@ -121,8 +118,14 @@
             <mxPoint x="280" y="470" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDDrR8Ec5uSqQgOio9mj-81" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="NDDrR8Ec5uSqQgOio9mj-80">
+        <mxCell id="NDDrR8Ec5uSqQgOio9mj-81" value="" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="NDDrR8Ec5uSqQgOio9mj-80">
           <mxGeometry x="-1" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="NDDrR8Ec5uSqQgOio9mj-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NDDrR8Ec5uSqQgOio9mj-82" target="NDDrR8Ec5uSqQgOio9mj-41">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="NDDrR8Ec5uSqQgOio9mj-82" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 9pt&quot;&gt;InternalHttpClient&lt;/pre&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-80" width="110" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
