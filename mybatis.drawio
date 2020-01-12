@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-12T06:31:40.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="GEOUP_YKDi4Vq6NKRFG2" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-12T06:39:42.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="QKvgbQKhBE2ryIUZ_0mO" version="12.5.1" type="github">
   <diagram id="NqdyVlGYuGU1DPlqcApG" name="Page-1">
-    <mxGraphModel dx="3201" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -401,7 +401,46 @@
           <mxGeometry x="50" y="62.5" width="280" height="55" as="geometry"/>
         </mxCell>
         <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-131" value="资源加载" style="swimlane;startSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1680" width="1080" height="560" as="geometry"/>
+          <mxGeometry x="-65" y="1640" width="990" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-132" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;ClassLoaderWrapper&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-131">
+          <mxGeometry x="260" y="90" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-133" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;Resources&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-131">
+          <mxGeometry x="650" y="110" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-134" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ca9ZKJGd3RS6ejhv2K8J-131" source="Ca9ZKJGd3RS6ejhv2K8J-133" target="Ca9ZKJGd3RS6ejhv2K8J-132">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="340" as="sourcePoint"/>
+            <mxPoint x="770" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-135" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;ResolverUtil&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-131">
+          <mxGeometry x="260" y="220" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-136" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;VFS&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-131">
+          <mxGeometry x="470" y="220" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-137" value="Bing模块" style="swimlane;startSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="1980" width="990" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-138" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;ClassLoaderWrapper&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-137">
+          <mxGeometry x="260" y="90" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-139" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;Resources&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-137">
+          <mxGeometry x="650" y="110" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-140" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ca9ZKJGd3RS6ejhv2K8J-137" source="Ca9ZKJGd3RS6ejhv2K8J-139" target="Ca9ZKJGd3RS6ejhv2K8J-138">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="340" as="sourcePoint"/>
+            <mxPoint x="770" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-141" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;ResolverUtil&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-137">
+          <mxGeometry x="260" y="220" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-142" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 15pt&quot;&gt;VFS&lt;/pre&gt;" style="html=1;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-137">
+          <mxGeometry x="470" y="220" width="110" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
