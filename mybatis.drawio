@@ -1,1 +1,67 @@
-<mxfile host="www.draw.io" modified="2020-01-12T02:43:21.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.5.1" etag="xo5QTmNrMdKRiWFOErUy" type="github"><diagram id="NqdyVlGYuGU1DPlqcApG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-12T02:54:57.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="_yJOC1CLua28VShpWAjw" version="12.5.1" type="github">
+  <diagram id="NqdyVlGYuGU1DPlqcApG" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-3" value="接口层" style="swimlane;html=1;horizontal=0;swimlaneLine=0;" vertex="1" parent="1">
+          <mxGeometry y="20" width="890" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-18" value="SqlSession" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-3">
+          <mxGeometry x="290" y="40" width="235" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-6" value="基础支持层" style="swimlane;html=1;horizontal=0;swimlaneLine=0;startSize=23;" vertex="1" parent="1">
+          <mxGeometry y="320" width="880" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-19" value="数据源模块" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="40" y="30" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-20" value="事务管理模块" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="180" y="30" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-21" value="缓存模块" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="330" y="30" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-22" value="Binding模块" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="480" y="30" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-23" value="反射模块" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="640" y="30" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-24" value="类型转换" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="40" y="100" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-25" value="日志模块" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="180" y="100" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-26" value="资源加载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="330" y="100" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-27" value="解析器模块" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-6">
+          <mxGeometry x="490" y="100" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-4" value="核心处理层" style="swimlane;startSize=23;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry y="140" width="890" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-10" value="配置解析" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-4">
+          <mxGeometry x="40" y="10" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-11" value="参数映射" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-4">
+          <mxGeometry x="160" y="10" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-14" value="SQL解析" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-4">
+          <mxGeometry x="290" y="10" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-15" value="SQL执行" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-4">
+          <mxGeometry x="443" y="10" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-16" value="结果集映射" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-4">
+          <mxGeometry x="583" y="10" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ca9ZKJGd3RS6ejhv2K8J-17" value="插件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="Ca9ZKJGd3RS6ejhv2K8J-4">
+          <mxGeometry x="740" y="10" width="100" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
