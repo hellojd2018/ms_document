@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-07T03:45:54.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="55bM5yFNsnOnmNLR6NjB" version="12.6.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-07T05:33:02.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="zfjVXzc8mh0hEF_zboFm" version="12.6.5" type="github">
   <diagram id="_qXGrUiXCGl5oymRRd8B" name="Page-1">
-    <mxGraphModel dx="1646" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -56,6 +56,9 @@
         </mxCell>
         <mxCell id="PT7UJvZRRJ9yC9iflmCO-17" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p&gt;1.内部微服务：同一注册中心的微服务&lt;/p&gt;&lt;p&gt;2.外部微服务：公司范围内的微服务&lt;/p&gt;&lt;p&gt;3.外部渠道：其他公司提供的Sass,Pass服务&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="510" width="500" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="PT7UJvZRRJ9yC9iflmCO-19" value="内部微服务1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
