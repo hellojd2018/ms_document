@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-24T06:12:40.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="pB-UI8huEpWcIKoJMsgh" version="12.7.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-24T06:14:13.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="AD1chNHw7zRscmBMXVGS" version="12.7.4" type="github">
   <diagram id="WvOc1u5bhgGsCGMZineF" name="Page-1">
     <mxGraphModel dx="2468" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -320,6 +320,12 @@
         </mxCell>
         <mxCell id="48f0p-taEEbTDdj5RPHX-100" value="生成转账日账单对比结果" style="html=1;dashed=0;whitespace=wrap;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="1080" width="217" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="48f0p-taEEbTDdj5RPHX-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="48f0p-taEEbTDdj5RPHX-103" target="48f0p-taEEbTDdj5RPHX-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48f0p-taEEbTDdj5RPHX-103" value="确认日对账结果" style="html=1;dashed=0;whitespace=wrap;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="780" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
