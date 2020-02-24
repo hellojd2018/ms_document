@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-24T06:20:31.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="uK8fI1AJskYe2Gr_PnAw" version="12.7.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-24T08:04:46.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="I9UbSsM4LEc52MrDIkOc" version="12.7.4" type="github">
   <diagram id="GYig4gQRv9blmUTTjOJp" name="Page-1">
-    <mxGraphModel dx="2468" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2468" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,7 +136,7 @@
         <mxCell id="cRylLDb_RZIH1TP81bXJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cRylLDb_RZIH1TP81bXJ-37" target="cRylLDb_RZIH1TP81bXJ-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cRylLDb_RZIH1TP81bXJ-37" value="更新支付交易时间" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-37" value="更新支付交易时间" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFF99;" vertex="1" parent="1">
           <mxGeometry x="720" y="220" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cRylLDb_RZIH1TP81bXJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cRylLDb_RZIH1TP81bXJ-39" target="cRylLDb_RZIH1TP81bXJ-31">
@@ -229,7 +229,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cRylLDb_RZIH1TP81bXJ-61" value="原订单是否存在？" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-61" value="对应的支付订单是否存在？" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="90" y="820" width="190" height="65" as="geometry" />
         </mxCell>
         <mxCell id="cRylLDb_RZIH1TP81bXJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cRylLDb_RZIH1TP81bXJ-63" target="cRylLDb_RZIH1TP81bXJ-67">
@@ -238,17 +238,14 @@
         <mxCell id="cRylLDb_RZIH1TP81bXJ-63" value="记录为异常结果记录表" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="400" y="930" width="146" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cRylLDb_RZIH1TP81bXJ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cRylLDb_RZIH1TP81bXJ-65" target="cRylLDb_RZIH1TP81bXJ-63">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="cRylLDb_RZIH1TP81bXJ-65" value="生成对应退款单" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="423" y="827.5" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cRylLDb_RZIH1TP81bXJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cRylLDb_RZIH1TP81bXJ-67" target="cRylLDb_RZIH1TP81bXJ-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cRylLDb_RZIH1TP81bXJ-67" value="按trade_time进行订单统计，生成结果" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="690" y="970" width="200" height="70" as="geometry" />
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-67" value="按trade_time，order_state进行订单统计，生成结果" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="970" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cRylLDb_RZIH1TP81bXJ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cRylLDb_RZIH1TP81bXJ-70" target="cRylLDb_RZIH1TP81bXJ-63">
           <mxGeometry relative="1" as="geometry">
@@ -269,7 +266,7 @@
         <mxCell id="cRylLDb_RZIH1TP81bXJ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cRylLDb_RZIH1TP81bXJ-73" target="cRylLDb_RZIH1TP81bXJ-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cRylLDb_RZIH1TP81bXJ-72" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="cRylLDb_RZIH1TP81bXJ-71">
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-72" value="不存在，如果代T,表示该订单来自测试环境;需要添加支付单； &lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="cRylLDb_RZIH1TP81bXJ-71">
           <mxGeometry x="-0.2527" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -325,7 +322,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cRylLDb_RZIH1TP81bXJ-89" value="确认日对账结果" style="html=1;dashed=0;whitespace=wrap;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="780" width="100" height="50" as="geometry" />
+          <mxGeometry x="1260" y="740" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-90" value="需要修复；不能刷新退款订单的trade_time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-91" value="渠道订单： 退款订单数，退款金额，支付订单数；支付金额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="790" width="190" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-92" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="795" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-96" value="添加个字段：表示补单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="650" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cRylLDb_RZIH1TP81bXJ-98" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;转账对账&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1025" width="80" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
