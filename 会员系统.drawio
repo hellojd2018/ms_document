@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T10:28:25.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="zRGQ11P_JhW_M11OcCV8" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T11:04:32.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="vjZ5Yh2uUXnsY19IeqOH" version="12.8.8" type="github">
   <diagram id="tWC3bvyy1KuU-ibMh0-T" name="Page-1">
-    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,13 +64,13 @@
         <mxCell id="dDY-Ve7HSEmPciSK5-vR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-23" target="dDY-Ve7HSEmPciSK5-vR-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dDY-Ve7HSEmPciSK5-vR-23" value="按批次生成卡批次号列表（可能几十万）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-23" value="按批次生成卡批次号列表（可能几十万）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="442.5" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dDY-Ve7HSEmPciSK5-vR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-24" target="dDY-Ve7HSEmPciSK5-vR-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dDY-Ve7HSEmPciSK5-vR-24" value="下载卡列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-24" value="下载卡列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="442.5" width="146" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dDY-Ve7HSEmPciSK5-vR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-26" target="dDY-Ve7HSEmPciSK5-vR-28">
@@ -91,8 +91,63 @@
         <mxCell id="dDY-Ve7HSEmPciSK5-vR-30" value="购买图书" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="386" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dDY-Ve7HSEmPciSK5-vR-32" value="实体卡激活" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
-          <mxGeometry x="150" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-32" target="dDY-Ve7HSEmPciSK5-vR-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-32" value="开通实体卡会员" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-34" target="dDY-Ve7HSEmPciSK5-vR-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-34" value="&lt;span style=&quot;white-space: normal&quot;&gt;按批次新建体验卡&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-35" target="dDY-Ve7HSEmPciSK5-vR-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-35" value="发布体验卡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-40" target="dDY-Ve7HSEmPciSK5-vR-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-46" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="dDY-Ve7HSEmPciSK5-vR-45">
+          <mxGeometry x="-0.2167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-40" value="是否满足体验条件？" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="740" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-41" target="dDY-Ve7HSEmPciSK5-vR-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-41" value="用户登录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-44" target="dDY-Ve7HSEmPciSK5-vR-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-44" value="用户进行激活" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dDY-Ve7HSEmPciSK5-vR-47" target="dDY-Ve7HSEmPciSK5-vR-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-47" value="开通会员" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-50" value="1.已经是会员，会有临时体验卡激活入口吗？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1019" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-51" value="设置有效期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDY-Ve7HSEmPciSK5-vR-55" value="&lt;span style=&quot;white-space: normal&quot;&gt;新老数据兼容&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="472.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
