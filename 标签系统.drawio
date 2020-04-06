@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-06T10:21:37.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="qtE65tGDkfWngKFGRvSd" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-06T10:22:25.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Tm4bS3lvBYNWTrLl6vc2" version="12.9.6" type="github">
   <diagram id="JjOcFzwLPrpcrGy4seuc" name="Page-1">
     <mxGraphModel dx="1662" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="12-cRlRXb4dsILWuFh1U-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="12-cRlRXb4dsILWuFh1U-15" target="12-cRlRXb4dsILWuFh1U-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="12-cRlRXb4dsILWuFh1U-15" value="注册和登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="12-cRlRXb4dsILWuFh1U-15" value="注册和登录" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF6619;" vertex="1" parent="1">
           <mxGeometry x="80" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12-cRlRXb4dsILWuFh1U-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12-cRlRXb4dsILWuFh1U-16" target="12-cRlRXb4dsILWuFh1U-19">
